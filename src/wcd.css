@@ -1,0 +1,72 @@
+.wcd {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 425px;
+  flex-direction: row;
+  background: #000000;
+  border-bottom: 1px solid #adadad;
+}
+.contentw {
+  display: flex;
+  flex-direction: column;
+}
+.whead {
+  font-family: "Neurial Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 70px;
+  /* identical to box height, or 126% */
+  margin-left: 87.17px;
+  margin-top: 61px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.wp {
+  margin-left: 93.34px;
+  top: 159.09px;
+
+  /* Body/Default */
+  max-width: 600.78px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #ffffff;
+}
+.static {
+  margin-top: 30px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.col1 {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.col2 {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.security{
+  font-family: 'Neurial Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 38px;
+
+
+color: #FFFFFF;
+
+border: 1px solid #000000;
+}

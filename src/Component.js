@@ -1,6 +1,7 @@
 import React from 'react';
 import App from "./App";
 import Faq from "./Faq";
+import Wcd from "./Wcd";
 import Message from "./Message";
 export default function Component(){
   return (
@@ -10,7 +11,7 @@ export default function Component(){
        <App />
        <Message />
       <Faq />
-
+      <Wcd />
 
     </div>
   );
