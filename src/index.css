@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+.App{
+  background: #1F1F24;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 1440px;
+  margin-left: auto;
+margin-right: auto
+}
+.container{
+  max-width: 1310px;
+  width: 100%;
+  margin-right: 68px;
+  margin-left: 68px;
+  padding-top:113px;
+  display: flex;
+  flex-direction: row;}
+
+.stepper{
+  padding-left: 0px;
+  margin:0px;
+}
+.cont{
+  max-width: 671px;
+  width:100%;
+
+}
+.imagec{
+  width:100%;
+  position: relative;
+}
+.imagec >img{
+  display:block;
+  margin: auto;
+}
+.imageback{
+  position: absolute;
+  width: inherit;
+height: 686.51px;
+border-radius: 100%;
+
+background: rgba(210, 255, 32, 0.19);
+filter: blur(64.5px);
+top:83px;
+}
+img{
+  width: 70%;
+  height: auto;
+  position: relative;
+  z-index: 10;
+  padding-bottom: 100px;
+
+}
+.head{
+  font-family: 'Neurial Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 70px;
+margin-top: 0;
+margin-bottom: 0;
+color: #FFFFFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.headp{
+  font-family: 'Neurial Grotesk';
+  max-width:  516.94px;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+margin-top: 0;
+margin-bottom: 40px;
+
+
+color: #B8B8B8;
+}
+
+.css-14yr603-MuiStepContent-root {
+  border-left-style: none !important;
 }

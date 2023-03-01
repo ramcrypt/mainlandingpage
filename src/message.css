@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+.parent {
+  overflow: hidden;
+}
+.box1 {
+  max-width: 1440px;
+  height:100vh;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  background: #ffffff;
+  border-bottom: 1px solid #adadad;
+  box-shadow: 0px -15px 13px rgba(141, 141, 141, 0.25);
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1440px;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  max-width: 623.76px;
+  margin-left: 70px;
+  margin-top: 82.31px;
+}
+.NFR {
+  max-width: 591.76px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sub {
+  display: inline-block;
+  margin-left: 13px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 561.76px;
+  color: #000000;
+}
+.conten {
+  max-width: 420px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+.in {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.boxi {
+  min-width: 469px;
+  margin-right: 70px;
+  margin-left: auto;
+  margin-top: 42.81px;
+}
