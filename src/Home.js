@@ -1,6 +1,7 @@
 import { Box, Typography,Button } from '@mui/material';
 import Carousel2 from './Carousel2';
-// import { DynStepper } from '../components/DynStepper';
+
+
 import Hero from './components/headm.svg';
 import "./home.css";
 export default function Home() {
