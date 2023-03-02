@@ -2,16 +2,20 @@
 .App{
   background: #1F1F24;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  max-width: 1440px;
+
   margin-left: auto;
-margin-right: auto
+margin-right: auto;
+justify-content: center;
 }
 .container{
   max-width: 1310px;
+
   width: 100%;
-  margin-right: 68px;
-  margin-left: 68px;
+  margin-right:auto;
+  margin-left: auto;
   padding-top:113px;
+  padding-left: auto;
+  padding-right: auto;
   display: flex;
   flex-direction: row;}
 

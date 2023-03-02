@@ -49,7 +49,7 @@ export default function DynamicStepper() {
         </div>
         <div clasName="contd">
           <h1 className="subdy"> Create Account </h1>
-          <span clasName="subo">Lorem ipsum dolor sit amet consecte</span>
+
         </div>
       </div>
       <div className={`step ${currentStep >= 1 ? "active" : ""}`}>
@@ -144,8 +144,8 @@ export default function DynamicStepper() {
           />{" "}
         </div>
         <div clasName="contd">
-          <h1 className="subdy"> Create Account </h1>
-          <span clasName="subo">Lorem ipsum dolor sit amet consecte</span>
+          <h1 className="subdy"> Quick Deposit </h1>
+
         </div>
       </div>
       <div className={`step ${currentStep >= 3 ? "active" : ""}`}>
@@ -241,8 +241,8 @@ export default function DynamicStepper() {
           />{" "}
         </div>
         <div clasName="contd">
-          <h1 className="subdy"> Create Account </h1>
-          <span clasName="subo">Lorem ipsum dolor sit amet consecte</span>
+          <h1 className="subdy"> Trade Seemlessly </h1>
+
         </div>
       </div>
       <div className={`step ${currentStep >= 5 ? "active" : ""}`}>
@@ -338,8 +338,8 @@ export default function DynamicStepper() {
           />{" "}
         </div>
         <div clasName="contd">
-          <h1 className="subdy"> Create Account </h1>
-          <span clasName="subo">Lorem ipsum dolor sit amet consecte</span>
+          <h1 className="subdy"> Become A Trader </h1>
+    
         </div>
       </div>
       <div className="btn">

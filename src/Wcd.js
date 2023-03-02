@@ -305,7 +305,7 @@ const svgCode3='<svg width="211" height="172" viewBox="0 0 211 172" fill="none" 
               backgroundImage: `url("data:image/svg+xml,${encodeURIComponent(
                 svgCode1
               )}")`,
-              marginBotton:10,
+              marginBotton:"10px",
               backgroundSize: "cover",
               backgroundPosition: "right",
               width: "217px",
@@ -403,7 +403,7 @@ const svgCode3='<svg width="211" height="172" viewBox="0 0 211 172" fill="none" 
               backgroundImage: `url("data:image/svg+xml,${encodeURIComponent(
                 svgCode2
               )}")`,
-              
+              marginTop:"10px",
               backgroundSize: "cover",
               backgroundPosition: "right",
               width: "217px",
@@ -522,7 +522,7 @@ const svgCode3='<svg width="211" height="172" viewBox="0 0 211 172" fill="none" 
               backgroundImage: `url("data:image/svg+xml,${encodeURIComponent(
                 svgCode3
               )}")`,
-              marginBotton:10,
+              marginBotton:"10px",
               backgroundSize: "cover",
               backgroundPosition: "right",
               width: "217px",

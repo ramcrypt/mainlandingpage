@@ -11,8 +11,8 @@ function App() {
 
     <div className="App"
     sx={{
-        maxWidth: 1440,
-        maxHight:1111,
+
+
         bgColor: '#1F1F24',
         boxShadow: '0 4px 4px rgba(0, 0, 0, 0.25)'}}>
     <div className="container">
@@ -24,7 +24,7 @@ function App() {
 
     </h1>
 
-    <p className="headp">Lorem ipsum dolor sit amet consectetur. Mauris at arcu lacinia consectetur nunc. </p>
+    <p className="headp">Become a trader in 3 easy steps!</p>
     <div className="stepper">
     <DynamicStepper />
     </div>
