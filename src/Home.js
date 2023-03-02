@@ -36,7 +36,7 @@ export default function Home() {
         }}
         href="https://app.density.exchange/"
       >
-        Trade Now
+        Sign Up Now
       </Button></div>
       <div style={{zIndex:0}}>
         <figure style={{ width: '100%' }}>

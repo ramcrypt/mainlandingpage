@@ -6,13 +6,14 @@ import Footer from "./Footer";
 import Message from "./Message";
 import Home from "./Home";
 import NewNav from "./NewNav";
+import Navm from "./Navm";
 import Carousel2 from "./Carousel2";
 import "./comp.css"
 export default function Component(){
   return (
     <div className="overall">
 
-       <NewNav />
+       <Navm />
        <Home />
        <App />
        <Message />
