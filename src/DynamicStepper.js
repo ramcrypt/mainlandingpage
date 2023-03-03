@@ -2,9 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./ds.css";
 import { Button } from "@mui/material";
 import Box from "@mui/material/Box";
-export default function DynamicStepper() {
+import useScrollPosition from "./useScrollPosition";
+import {useLocation} from 'react-router-dom';
+export default function DynamicStepper(props) {
   const [currentStep, setCurrentStep] = useState(0);
+  const scrollPosition = useScrollPosition();
 
+  console.log(scrollPosition);
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentStep((currentStep) => currentStep + 1);
@@ -339,7 +343,7 @@ export default function DynamicStepper() {
         </div>
         <div clasName="contd">
           <h1 className="subdy"> Become A Trader </h1>
-    
+
         </div>
       </div>
       <div className="btn">

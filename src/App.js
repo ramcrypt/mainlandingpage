@@ -6,7 +6,9 @@ import { Typography } from "@mui/material";
 import VerticalStepper from "./VerticalStepper"
 import DynamicStepper  from "./DynamicStepper"
 function App() {
+
   return (
+
     < >
 
     <div className="App"

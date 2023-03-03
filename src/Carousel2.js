@@ -1,4 +1,5 @@
 import card from './components/Testimonial Card.svg';
+import React from 'react';
 import "./Cours.css";
 import testb from "./components/testb.svg"
 import {Typography} from "@mui/material";

@@ -1,6 +1,6 @@
 import { Box, Typography,Button } from '@mui/material';
 import Carousel2 from './Carousel2';
-
+import React from 'react';
 
 import Hero from './components/headm.svg';
 import "./home.css";
@@ -24,7 +24,7 @@ export default function Home() {
           fontFamily: "DM Sans",
           fontStyle: "normal",
           fontWeight: 700,
-          fontSize: "18px",
+          fontSize: "clamp(1px,18px, 24px)",
           lineHeight: 18,
           mt: 6,
           padding: "24px 36px",

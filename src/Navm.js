@@ -1,5 +1,6 @@
 import { Box, Button,IconButton, Typography } from '@mui/material';
 import FooterIcon from './components/denlo.svg';
+import React from 'react';
 import EastIcon from '@mui/icons-material/East';
 import footbo from "./components/footbo.svg";
 import AndroidIcon from '@mui/icons-material/Android';
@@ -105,9 +106,9 @@ export default function Navm() {
               fontWeight: 700,
               mr:6,
               mt:0.2,
-              fontSize: 16,
-             lineHeight: 18,
-              padding: "24px 36px",
+              fontSize: "clamp(1px, 1vw + 1vh, 24px)",
+             lineHeight: "clamp(12px, 18px, 24px)",
+              padding: "12px 24px",
 
               "&:hover": {
                 background: "#E2FF6F"

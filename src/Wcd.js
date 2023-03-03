@@ -1,4 +1,5 @@
 import "./wcd.css";
+import React from 'react';
 import { Button } from "@mui/material";
 import f1 from "./components/f1.svg";
 import f3 from "./components/f3.svg";

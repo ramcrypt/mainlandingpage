@@ -3,7 +3,7 @@ import densityLogo from './components/Union.svg';
 import EastIcon from '@mui/icons-material/East';
 import AndroidIcon from '@mui/icons-material/Android';
 import AppleIcon from '@mui/icons-material/Apple';
-
+import React from 'react';
 export default function NewNav() {
   return (
     <>
