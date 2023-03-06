@@ -19,6 +19,7 @@ export default function Message() {
       <Parallax pages={2} style={{height:'100vh',position:'relative'}}
       config={{ friction: 50 }} >
         <ParallaxLayer
+        
           offset={0}
           speed={0.5}
           sticky={{ start: 0, end: 1 }}
@@ -27,7 +28,7 @@ export default function Message() {
             <div className="contain">
             <div className="in">
 
-             <img src={mask} className="im1" />
+             <img src={mask} alt="im1" className="im1" />
             </div>
               <div className="frame">
 
@@ -65,18 +66,19 @@ export default function Message() {
 
               </div>
               <div>
-              <img src={Vector1} style={{paddingBottom:0,marginBottom:0,marginLeft:150,marginTop:300}}/></div>
+              <img src={Vector1}  alt="vector1" style={{paddingBottom:0,marginBottom:0,marginLeft:150,marginTop:340}}/></div>
             </div>
             <div className="boxi">
 
             <img src={anim1}  style={{width:'5%',marginTop:'-70vh' }}  />
              <img src={anim1}  style={{width:'3%', }}  />
             <img src={t} style={{marginRight:- 80,paddingRight:-100}} />
-            <img src={Vector} style={{marginRight:-50,width:'10%',marginLeft:0,position:"relative"}} />
+            <img src={Vector} alt="vector" style={{marginRight:-50,width:'10%',marginLeft:0,position:"relative"}} />
             </div>
           </div>
         </ParallaxLayer>
         <ParallaxLayer
+
           offset={1}
           speed={0.5}
           sticky={{ start: 1, end: 2 }}
@@ -124,11 +126,11 @@ export default function Message() {
 
             </div>
             <div>
-            <img src={Vector1} style={{paddingBottom:0,marginBottom:0,marginLeft:150,marginTop:300}}/></div>
+            <img src={Vector1}  alt="vector1" style={{paddingBottom:0,marginBottom:0,marginLeft:150,marginTop:340}}/></div>
           </div>
           <div className="boxi1">
-          <img src={groupa} style={{marginRight:- 180,width:'100%'}} />
-          <img src={Vector} style={{marginLeft:100,width:'10%',marginRight:-50,position:"relative"}} />
+          <img src={groupa} alt='image'   style={{marginRight:- 210,width:'90%'}} />
+          <img src={Vector} style={{marginLeft:100,width:'20%',marginRight:-50,position:"relative"}} />
           </div>
         </div>
         </ParallaxLayer>

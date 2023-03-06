@@ -27,7 +27,7 @@ export default function Navm() {
             }}
           >
             <figure>
-              <img src={FooterIcon} alt="icon for footer"  style={{paddingBottom:0}}/>
+           <img src={FooterIcon} alt="icon for footer"  style={{paddingBottom:0}}/>
             </figure>
 
           </Box>
@@ -46,14 +46,35 @@ export default function Navm() {
                   cursor: 'pointer',
                 },
               },
-              '& .MuiTypography-root:first-of-type': {
+            /*  '& .MuiTypography-root:first-of-type': {
                      color: '#E2FF6F',
-    },
+    },*/
             }}
           >
-            <Typography sx={{}}>Home</Typography>
-            <Typography>About Us</Typography>
-            <Typography>Community</Typography>
+
+
+            <Typography sx={{
+              '& .blog-link': {
+                textDecoration: 'none',
+                color: 'inherit',
+              },
+              '& .blog-link:active': {
+                color: 'inherit',
+              },
+              '& .blog-link:focus': {
+                color: 'inherit',
+              },
+              '& .blog-link:hover': {
+                color: 'inherit',
+              },
+            }}>  <a
+                href="https://shorthaired-twist-38b.notion.site/T-Cs-for-the-Density-Futures-trading-Competition-0704be0da1d446f2a34cdc83fea81468"
+                target="_blank"
+                rel="noreferrer"
+                className="blog-link"
+              >
+                Community
+              </a></Typography>
             <Typography
               sx={{
                 '& .blog-link': {
@@ -77,10 +98,11 @@ export default function Navm() {
                 rel="noreferrer"
                 className="blog-link"
               >
-                Blog
+                Blogs
               </a>
             </Typography>
             <Typography>FAQs</Typography>
+              <Typography>About Us</Typography>
             <Typography>Support</Typography>
           </Box>
 
@@ -106,9 +128,9 @@ export default function Navm() {
               fontWeight: 700,
               mr:6,
               mt:0.2,
-              fontSize: "clamp(1px, 1vw + 1vh, 24px)",
+              fontSize: "clamp(12px, 16px, 24px)",
              lineHeight: "clamp(12px, 18px, 24px)",
-              padding: "12px 24px",
+              padding: "24px 36px",
 
               "&:hover": {
                 background: "#E2FF6F"

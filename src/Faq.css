@@ -57,6 +57,7 @@
   margin-bottom: 100px;
 }
 .accordion {
+  cursor: pointer;
   margin-top: 26px;
   margin-bottom: 26px;
 }

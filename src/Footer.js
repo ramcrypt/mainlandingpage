@@ -63,9 +63,55 @@ export default function Footer() {
             }}
           >
             <Typography>Home</Typography>
+            <Typography sx={{
+              '& .blog-link': {
+                textDecoration: 'none',
+                color: 'inherit',
+              },
+              '& .blog-link:active': {
+                color: 'inherit',
+              },
+              '& .blog-link:focus': {
+                color: 'inherit',
+              },
+              '& .blog-link:hover': {
+                color: 'inherit',
+              },
+            }}>  <a
+                href="https://shorthaired-twist-38b.notion.site/T-Cs-for-the-Density-Futures-trading-Competition-0704be0da1d446f2a34cdc83fea81468"
+                target="_blank"
+                rel="noreferrer"
+                className="blog-link"
+              >
+                Community
+              </a></Typography>
             <Typography>About Us</Typography>
-            <Typography>Competition</Typography>
-            <Typography>Blogs</Typography>
+            <Typography
+              sx={{
+                '& .blog-link': {
+                  textDecoration: 'none',
+                  color: 'inherit',
+                },
+                '& .blog-link:active': {
+                  color: 'inherit',
+                },
+                '& .blog-link:focus': {
+                  color: 'inherit',
+                },
+                '& .blog-link:hover': {
+                  color: 'inherit',
+                },
+              }}
+            >
+              <a
+                href="https://blogs.density.exchange/"
+                target="_blank"
+                rel="noreferrer"
+                className="blog-link"
+              >
+                Blogs
+              </a>
+            </Typography>
           </Box>
 
           <Box

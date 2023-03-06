@@ -33,8 +33,7 @@ export default function Faq() {
       <h2 className="heading">Frequently Asked Questions</h2>
       <div className="pdiv">
         <p className="para">
-          Cras tincidunt lobortis feugiat vivamus at morbi leo urna molestie
-          atole elementum eu facilisis faucibus interdum posuere.
+
         </p>
       </div>
       <div className="accord">

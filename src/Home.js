@@ -1,8 +1,9 @@
 import { Box, Typography,Button } from '@mui/material';
 import Carousel2 from './Carousel2';
 import React from 'react';
-
-import Hero from './components/headm.svg';
+import ptwo from './components/ptwo.svg';
+import Hero from './components/herofaa.svg';
+/*import Hero from './components/mr.gif';*/
 import "./home.css";
 export default function Home() {
   return (
@@ -15,7 +16,16 @@ export default function Home() {
           background: '#FFFFFF',
         }}
       >
+      <div style={{display:'flex',flexDirection:'column',position:'absolute',top:'auto',bottom:'33%',left:'4%',zIndex:1000,mb:10}}>
+      <h1 className="mainc"> Make every Trade count with <span className="mainc" style={{ color: '#4C3CE5' }}>CRYPTO FUTURES</span>
+ </h1>
+ <div style={{display:'flex',flexDirection:'row',marginTop:'50px'}}>
+      <p  style={{marginTop:25,fontSize: 18}}>
+        Get 10 USDT as joining bonus
+      </p><img  src={ptwo} style={{width:'15%'}}/></div>
+      </div>
       <div style={{position:'absolute',top:'56%',left:'4%',zIndex:1000}}>
+
       <Button
         sx={{
 
@@ -39,6 +49,7 @@ export default function Home() {
       >
         Sign Up Now
       </Button></div>
+
       <div style={{zIndex:0}}>
         <figure style={{ width: '100%' }}>
 

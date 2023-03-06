@@ -1,0 +1,77 @@
+.an {
+  display: flex;
+
+  width: 100%;
+
+  background-color: #000000;
+}
+.App5 {
+  font-family: sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  width: 600px;
+  height: 80%;
+  position: relative;
+
+  animation: scroll 40s linear infinite;
+  place-items: left;
+
+  background: linear-gradient(
+    209.18deg,
+    rgba(152, 186, 19, 0.58) -24.22%,
+    rgba(44, 44, 52, 0) 82.08%
+  );
+  border:1px solid rgba(152, 186, 19, 0.58);
+transition: transform 0.3s ease;
+  filter: drop-shadow(10px 11px 24px rgba(144, 162, 73, 0.13));
+}
+.App5:hover {
+cursor: pointer;
+transformOrigin: top left;
+transform: scale(1.22);
+}
+
+
+@keyframes scroll {
+
+  100% {
+    transform: translateX(calc(-100%* 7));
+  }
+}
+
+.papp {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  height:80%;
+  line-height: 30px;
+  /* or 167% */
+  margin-bottom: 50;
+  color: #ffffff;
+}
+.pname {
+  margin-left: 12px;
+  font-family: "Neurial Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.pwork {
+  margin-top: auto;
+  margin-left: 12px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  color: #ffffff;
+}
+.img23{
+  width:7%;
+}

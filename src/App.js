@@ -33,7 +33,7 @@ function App() {
     </div>
     <div className="imagec">
     <div className="imageback"></div>
-    <img src="../images/cryptimg.svg"/>
+    <img src="../images/cryptimg.svg"  alt="main-img"/>
     </div>
 
     </div>

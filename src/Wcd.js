@@ -270,8 +270,7 @@ const svgCode3='<svg width="211" height="172" viewBox="0 0 211 172" fill="none" 
         </div>
         <h2 className="whead">Why Choose Density ?</h2>
         <p className="wp">
-          Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
-          dalaracc lacus vel facilisis volutpat est velitolm.
+          Empower your trading strategy with access to cutting-edge technology and advanced trading tools.
         </p>
         <div className="btn">
           <Button

@@ -58,8 +58,7 @@ export default function NewNav() {
               },
             }}
           >
-            <Typography>About Us</Typography>
-            <Typography>Community</Typography>
+
             <Typography
               sx={{
                 '& .blog-link': {
@@ -83,10 +82,13 @@ export default function NewNav() {
                 rel="noreferrer"
                 className="blog-link"
               >
-                Blog
+                Blogs
               </a>
             </Typography>
+
+            <Typography>Community</Typography>
             <Typography>FAQs</Typography>
+              <Typography>About Us</Typography>
             <Typography>Support</Typography>
           </Box>
 

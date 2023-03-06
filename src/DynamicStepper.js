@@ -52,7 +52,7 @@ export default function DynamicStepper(props) {
           />{" "}
         </div>
         <div clasName="contd">
-          <h1 className="subdy"> Create Account </h1>
+          <h1 className="subdy"> Create An Account </h1>
 
         </div>
       </div>
@@ -245,7 +245,7 @@ export default function DynamicStepper(props) {
           />{" "}
         </div>
         <div clasName="contd">
-          <h1 className="subdy"> Trade Seemlessly </h1>
+          <h1 className="subdy"> Trade Seamlessly </h1>
 
         </div>
       </div>

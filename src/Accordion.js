@@ -17,8 +17,8 @@ function Accordion(props) {
     <div className="accordion-container">
       {props.sections.map((section, index) => (
         <div key={index} className="conhr">
-          <div className={`accordion ${activeIndex === index ? "active" : ""}`}>
-            <span className="title">{section.title}</span>
+          <div className={`accordion ${activeIndex === index ? "active" : ""}`}  onClick={() => handleClick(index)}>
+            <span className="title"  >{section.title}</span>
             {activeIndex === index ? (
               ""
             ) : (

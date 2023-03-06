@@ -49,17 +49,26 @@ color: #FFFFFF;
   animation-play-state: paused;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 9));
-  }
+
+.slidep{
+  width: 533.4px;
+height: 242px;
+background: linear-gradient(209.18deg, rgba(152, 186, 19, 0.58) -24.22%, rgba(44, 44, 52, 0) 82.08%);
+filter: drop-shadow(10px 11px 24px rgba(144, 162, 73, 0.13));
 }
 
 .slide {
+  background: linear-gradient(209.18deg, rgba(152, 186, 19, 0.58) -24.22%, rgba(44, 44, 52, 0) 82.08%);
   background-color: #000000;
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #FFFFFF;
+
   height: 350px;
   width: 100%;
   display: flex;

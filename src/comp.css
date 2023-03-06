@@ -2,6 +2,7 @@ body {
   font-family: "Nerial Grotesk", Arial, sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6,p,.accord {
+h1, h2, h3, h4, h5, h6,p,.accord,span {
   font-family: "DM Sans", Arial, sans-serif !important;
+  
 }
