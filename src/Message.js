@@ -19,7 +19,7 @@ export default function Message() {
       <Parallax pages={2} style={{height:'100vh',position:'relative'}}
       config={{ friction: 50 }} >
         <ParallaxLayer
-        
+
           offset={0}
           speed={0.5}
           sticky={{ start: 0, end: 1 }}
@@ -66,14 +66,14 @@ export default function Message() {
 
               </div>
               <div>
-              <img src={Vector1}  alt="vector1" style={{paddingBottom:0,marginBottom:0,marginLeft:150,marginTop:340}}/></div>
+              <img src={Vector1}  alt="vector1" style={{paddingBottom:100,marginBottom:0,marginLeft:150,marginTop:'40vh'}}/></div>
             </div>
             <div className="boxi">
 
             <img src={anim1}  style={{width:'5%',marginTop:'-70vh' }}  />
              <img src={anim1}  style={{width:'3%', }}  />
-            <img src={t} style={{marginRight:- 80,paddingRight:-100}} />
-            <img src={Vector} alt="vector" style={{marginRight:-50,width:'10%',marginLeft:0,position:"relative"}} />
+            <img src={t} style={{marginRight:- 80,paddingRight:-100,zIndex:'10'}} />
+            <img src={Vector} alt="vector" style={{marginRight:-50,width:'20%',marginLeft:0,position:"relative",justifyContent:'flex-end'}} />
             </div>
           </div>
         </ParallaxLayer>
@@ -126,10 +126,10 @@ export default function Message() {
 
             </div>
             <div>
-            <img src={Vector1}  alt="vector1" style={{paddingBottom:0,marginBottom:0,marginLeft:150,marginTop:340}}/></div>
+            <img src={Vector1}  alt="vector1" style={{paddingBottom:100,marginBottom:0,marginLeft:150,marginTop:'40vh'}}/></div>
           </div>
           <div className="boxi1">
-          <img src={groupa} alt='image'   style={{marginRight:- 210,width:'90%'}} />
+          <img src={groupa} alt='image'   style={{marginRight:- 210,width:'90%',zIndex:'10'}} />
           <img src={Vector} style={{marginLeft:100,width:'20%',marginRight:-50,position:"relative"}} />
           </div>
         </div>

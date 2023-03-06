@@ -8,10 +8,10 @@
 .App5 {
   font-family: sans-serif;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   padding-left: 30px;
   width: 600px;
-  height: 80%;
+  height: 100%;
   position: relative;
 
   animation: scroll 40s linear infinite;

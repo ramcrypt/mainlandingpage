@@ -79,7 +79,7 @@ export default function Testimonials() {
       <div className="App5"
       key={index}
           style={{
-             
+
             animationPlayState: isPaused ? "paused" : "running",
 
           }}
@@ -90,8 +90,8 @@ export default function Testimonials() {
         <p className="papp"  >{detail.des}</p>
         <div
           style={{
-
-          marginBottom:0,
+          marginTop:30,
+          
           display: "flex",
             flexDirection: "row",
               heigt:'80%'

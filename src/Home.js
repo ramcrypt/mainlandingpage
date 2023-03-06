@@ -16,7 +16,7 @@ export default function Home() {
           background: '#FFFFFF',
         }}
       >
-      <div style={{display:'flex',flexDirection:'column',position:'absolute',top:'auto',bottom:'33%',left:'4%',zIndex:1000,mb:10}}>
+      <div style={{display:'flex',flexDirection:'column',position:'absolute',bottom:'33%',left:'4%',zIndex:1000,mb:100,paddingBottom:'100px',justifyContent:'center'}}>
       <h1 className="mainc"> Make every Trade count with <span className="mainc" style={{ color: '#4C3CE5' }}>CRYPTO FUTURES</span>
  </h1>
  <div style={{display:'flex',flexDirection:'row',marginTop:'50px'}}>
@@ -36,7 +36,7 @@ export default function Home() {
           fontWeight: 700,
           fontSize: "clamp(1px,18px, 24px)",
           lineHeight: 18,
-          mt: 6,
+
           padding: "24px 36px",
           width: '30vw',
           "&:hover": {
