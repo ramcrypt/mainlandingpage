@@ -49,7 +49,7 @@ export default function Footer() {
 
           <Box
             sx={{
-                  gap: '0.8vw',
+                  gap: '1.2vw',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',

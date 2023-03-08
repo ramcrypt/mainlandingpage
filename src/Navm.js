@@ -20,6 +20,7 @@ export default function Navm() {
           <Box
             sx={{
               pt:2.7,
+              
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'flex-start',
@@ -38,7 +39,7 @@ export default function Navm() {
               display: 'flex',
               alignItems: 'center',
               padding: '0',
-              gap: '0.8vw',
+              gap: '1.6vw',
               '& .MuiTypography-root': {
                 color: '#D8D8D8',
                 '&:hover': {
@@ -109,6 +110,7 @@ export default function Navm() {
 
           <Box
             sx={{
+
               display: 'flex',
                flexDirection: 'row',
              justifyContent: 'center',
@@ -141,7 +143,7 @@ export default function Navm() {
             }}
             href="https://app.density.exchange/"
           >
-            Trade Now
+          <Typography sx={{fontWeight:'700'}}>  Trade Now </Typography>
               <EastIcon color="#1f1f24" />
           </Button>
           <IconButton
