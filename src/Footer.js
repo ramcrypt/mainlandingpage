@@ -49,9 +49,9 @@ export default function Footer() {
 
           <Box
             sx={{
-              width: 'clamp(20%, 25%, 30%)',
+                  gap: '0.8vw',
               display: 'flex',
-              justifyContent: 'space-between',
+              justifyContent: 'center',
               alignItems: 'center',
               '& .MuiTypography-root': {
                 color: '#E2FF6F',
@@ -62,8 +62,9 @@ export default function Footer() {
               },
             }}
           >
-            <Typography>Home</Typography>
+            <Typography sx={{fontSize:'1vw'}}>Home</Typography>
             <Typography sx={{
+              fontSize:'1vw',
               '& .blog-link': {
                 textDecoration: 'none',
                 color: 'inherit',
@@ -85,7 +86,7 @@ export default function Footer() {
               >
                 Community
               </a></Typography>
-            <Typography>About Us</Typography>
+            <Typography sx={{fontSize:'1vw'}}>About Us</Typography>
             <Typography
               sx={{
                 '& .blog-link': {
@@ -101,6 +102,7 @@ export default function Footer() {
                 '& .blog-link:hover': {
                   color: 'inherit',
                 },
+                fontSize:'1vw'
               }}
             >
               <a
@@ -150,14 +152,14 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <IconButton>
+              <IconButton varient="filled">
                 <TelegramIcon sx={{ color: '#E2FF6F' }} />
               </IconButton>
             </a>
           </Box>
         </Box>
         <Box style={{width:'140%',marginLeft:'2%'}}>  <figure>
-            <img src={footbo} alt="icon for footer"  style={{paddingBottom:0}}/>
+            <img src={footbo} alt="icon for footer"  style={{paddingBottom:0,width:'90vw'}}/>
           </figure></Box>
       </Box>
     </>

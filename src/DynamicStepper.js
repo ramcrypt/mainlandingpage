@@ -25,8 +25,8 @@ export default function DynamicStepper(props) {
             sx={{
               position: "relative",
               mt: 2,
-              width: 75.83,
-              height: 74.4,
+              width: "4.75vw",
+              height: '4.75vw',
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -38,10 +38,10 @@ export default function DynamicStepper(props) {
               "&::after": {
                 content: '""',
                 position: "absolute",
-                width: "27.65px",
-                height: "26.99px",
-                top: -32,
-                left: 48,
+                width: "1.85vw",
+                height: "1.85vw",
+                top: "-2vw",
+                left: '3.2vw',
 
                 borderRadius: 2,
                 backgroundColor: "#E2FF6F",
@@ -121,8 +121,9 @@ export default function DynamicStepper(props) {
           <Box
             sx={{
               position: "relative",
-              width: 75.83,
-              height: 74.4,
+              mt: 2,
+              width: "4.75vw",
+              height: '4.75vw',
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -134,10 +135,10 @@ export default function DynamicStepper(props) {
               "&::after": {
                 content: '""',
                 position: "absolute",
-                width: "27.65px",
-                height: "26.99px",
-                top: -32,
-                left: 48,
+                width: "1.85vw",
+                height: "1.85vw",
+                top: "-2vw",
+                left: '3.2vw',
 
                 borderRadius: 2,
                 backgroundColor: "#E2FF6F",
@@ -217,9 +218,9 @@ export default function DynamicStepper(props) {
           <Box
             sx={{
               position: "relative",
-
-              width: 75.83,
-              height: 74.4,
+              mt: 2,
+              width: "4.75vw",
+              height: '4.75vw',
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -231,10 +232,10 @@ export default function DynamicStepper(props) {
               "&::after": {
                 content: '""',
                 position: "absolute",
-                width: "27.65px",
-                height: "26.99px",
-                top: -32,
-                left: 48,
+                width: "1.85vw",
+                height: "1.85vw",
+                top: "-2vw",
+                left: '3.2vw',
 
                 borderRadius: 2,
                 backgroundColor: "#E2FF6F",
@@ -314,9 +315,9 @@ export default function DynamicStepper(props) {
           <Box
             sx={{
               position: "relative",
-
-              width: 75.83,
-              height: 74.4,
+              mt: 2,
+              width: "4.75vw",
+              height: '4.75vw',
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -328,10 +329,10 @@ export default function DynamicStepper(props) {
               "&::after": {
                 content: '""',
                 position: "absolute",
-                width: "27.65px",
-                height: "26.99px",
-                top: -32,
-                left: 48,
+                width: "1.85vw",
+                height: "1.85vw",
+                top: "-2vw",
+                left: '3.2vw',
 
                 borderRadius: 2,
                 backgroundColor: "#E2FF6F",
@@ -346,30 +347,7 @@ export default function DynamicStepper(props) {
 
         </div>
       </div>
-      <div className="btn">
-        <Button
-          sx={{
-            color: "#000000",
-            display: "flex",
-            fontFamily: "DM Sans",
-            fontStyle: "normal",
-            fontWeight: 700,
-            fontSize: "18px",
-            lineHeight: 18,
-            mt: 6,
-            padding: "24px 36px",
-            width: 431,
-            "&:hover": {
-              background: "#E2FF6F"
-            },
-            height: 66,
-            background: "#E2FF6F"
-          }}
-          href="https://app.density.exchange/"
-        >
-          Sign Up Now
-        </Button>
-      </div>
+
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import "./wcd.css";
 import React from 'react';
-import { Button } from "@mui/material";
+import { Button ,Typography} from "@mui/material";
 import f1 from "./components/f1.svg";
 import f3 from "./components/f3.svg";
 
@@ -279,13 +279,13 @@ const svgCode3='<svg width="211" height="172" viewBox="0 0 211 172" fill="none" 
               display: "flex",
               fontFamily: "DM Sans",
               fontStyle: "normal",
-              fontWeight: 700,
+
               fontSize: "18px",
               lineHeight: 18,
               mt: 4.5,
               ml: 11,
               padding: "24px 36px",
-              width: 230,
+              width: '280px',
               "&:hover": {
                 background: "#E2FF6F"
               },
@@ -294,7 +294,8 @@ const svgCode3='<svg width="211" height="172" viewBox="0 0 211 172" fill="none" 
             }}
             href="https://app.density.exchange/"
           >
-            Trade Now
+            <Typography sx={{fontWeight: 600,fontSize: "clamp(1px,18px, 24px)",
+            lineHeight: 18}} >Trade Now</Typography>
           </Button>
         </div>
       </div>

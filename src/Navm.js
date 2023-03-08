@@ -38,7 +38,7 @@ export default function Navm() {
               display: 'flex',
               alignItems: 'center',
               padding: '0',
-              gap: '33px',
+              gap: '0.8vw',
               '& .MuiTypography-root': {
                 color: '#D8D8D8',
                 '&:hover': {
@@ -67,6 +67,7 @@ export default function Navm() {
               '& .blog-link:hover': {
                 color: 'inherit',
               },
+              fontSize:'1vw'
             }}>  <a
                 href="https://shorthaired-twist-38b.notion.site/T-Cs-for-the-Density-Futures-trading-Competition-0704be0da1d446f2a34cdc83fea81468"
                 target="_blank"
@@ -89,7 +90,7 @@ export default function Navm() {
                 },
                 '& .blog-link:hover': {
                   color: 'inherit',
-                },
+                },fontSize:'1vw'
               }}
             >
               <a
@@ -101,9 +102,9 @@ export default function Navm() {
                 Blogs
               </a>
             </Typography>
-            <Typography>FAQs</Typography>
-              <Typography>About Us</Typography>
-            <Typography>Support</Typography>
+            <Typography sx={{fontSize:'1vw'}}>FAQs</Typography>
+              <Typography sx={{fontSize:'1vw'}}>About Us</Typography>
+            <Typography sx={{fontSize:'1vw'}}>Support</Typography>
           </Box>
 
           <Box
@@ -113,7 +114,7 @@ export default function Navm() {
              justifyContent: 'center',
              alignItems: 'center',
              padding: '10px',
-             gap: '10px',
+             gap: '20px',
 
             }}
           >
@@ -126,9 +127,9 @@ export default function Navm() {
               fontFamily: "DM Sans",
               fontStyle: "normal",
               fontWeight: 700,
-              mr:6,
+              mr:'3vw',
               mt:0.2,
-              fontSize: "clamp(12px, 16px, 24px)",
+              fontSize: "1vw",
              lineHeight: "clamp(12px, 18px, 24px)",
               padding: "24px 36px",
 

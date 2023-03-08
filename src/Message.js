@@ -38,31 +38,29 @@ export default function Message() {
                 </p>
               </div>
               <div className="btn1">
-                <Button
-                  sx={{
-                    color: "#FFFFFF",
-                    lineHeight: "18px",
-                    display: "flex",
-                    fontFamily: "DM Sans",
-                    fontStyle: "normal",
-                    fontWeight: 700,
-                    fontSize: "18px",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    padding: "24px 100px",
-                    ml: 9,
-                    mt: 3,
-                    height: 6,
-                    "&:hover": {
-                      background: "#000000"
-                    },
-                    maxWidth: 400,
+              <Button
+                sx={{
+                  color: "#FFFFFF",
+                  display: "flex",
+                  fontFamily: "DM Sans",
+                  fontStyle: "normal",
+                  fontWeight: 700,
+                  fontSize: "18px",
+                  lineHeight: 18,
+                  ml: 9,
+                  mt: 3,
+                  padding: "24px 36px",
+                  width: '25vw',
+                  "&:hover": {
                     background: "#000000"
-                  }}
-                  href="https://app.density.exchange/"
-                >
-                <Typography>  Explore Now </Typography>
-                </Button>
+                  },
+                  height: 6,
+                  background: "#000000"
+                }}
+                href="https://app.density.exchange/"
+              >
+              <Typography>  Explore Now </Typography>
+              </Button>
 
               </div>
               <div>
@@ -72,7 +70,7 @@ export default function Message() {
 
             <img src={anim1}  style={{width:'5%',marginTop:'-70vh' }}  />
              <img src={anim1}  style={{width:'3%', }}  />
-            <img src={t} style={{marginRight:- 80,paddingRight:-100,zIndex:'10'}} />
+            <img src={t} style={{marginRight:- 80,paddingRight:-100,zIndex:'10',width:'88%'}} />
             <img src={Vector} alt="vector" style={{marginRight:-50,width:'20%',marginLeft:0,position:"relative",justifyContent:'flex-end'}} />
             </div>
           </div>
@@ -97,32 +95,29 @@ export default function Message() {
               </p>
             </div>
             <div className="btn1">
-              <Button
-                sx={{
-                  color: "#FFFFFF",
-                  lineHeight: "18px",
-                  display: "flex",
-                  fontFamily: "DM Sans",
-                  fontStyle: "normal",
-                  fontWeight: 700,
-                  fontSize: "18px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  padding: "24px 100px",
-                  ml: 9,
-                  mt: 3,
-                  height: 6,
-                  "&:hover": {
-                    background: "#000000"
-                  },
-
-                  maxWidth: 400,
+            <Button
+              sx={{
+                color: "#FFFFFF",
+                display: "flex",
+                fontFamily: "DM Sans",
+                fontStyle: "normal",
+                fontWeight: 700,
+                fontSize: "18px",
+                lineHeight: 18,
+                ml: 9,
+                mt: 3,
+                padding: "24px 36px",
+                width: '25vw',
+                "&:hover": {
                   background: "#000000"
-                }}
-                href="https://app.density.exchange/"
-              >
-              <Typography>  Explore Now </Typography>
-              </Button>
+                },
+                height: 6,
+                background: "#000000"
+              }}
+              href="https://app.density.exchange/"
+            >
+            <Typography>  Explore Now </Typography>
+            </Button>
 
             </div>
             <div>

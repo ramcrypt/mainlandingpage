@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
 .App{
   background: #1F1F24;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -8,9 +8,7 @@ margin-right: auto;
 justify-content: center;
 }
 .container{
-  max-width: 1310px;
-
-  width: 100%;
+  width: 90vw;
   margin-right:auto;
   margin-left: auto;
   padding-top:113px;
@@ -24,45 +22,46 @@ justify-content: center;
   margin:0px;
 }
 .cont{
+  padding-bottom: 60px;
   padding-left: 60px;
-  max-width: 671px;
-  width:100%;
+  width: 45vw;
+
 
 }
 .imagec{
-  width:100%;
-  height:auto;
+  width:40vw;
+ height:85vh;
   position: relative;
 }
 .imagec >img{
-  height:inherit;
+
   display:block;
   margin: auto;
 }
 .imageback{
   position: absolute;
   width: inherit;
-height: 686.51px;
+height: 65vh;
 border-radius: 100%;
 
 background: rgba(210, 255, 32, 0.19);
-filter: blur(64.5px);
+filter: blur(4vw);
 top:83px;
 }
 .imagec >img{
   width: 70%;
-  height: auto;
+  height: 85vh;
   position: relative;
   z-index: 10;
-  padding-bottom: 100px;
+
 
 }
 .head{
   font-family: 'Neurial Grotesk';
 font-style: normal;
 font-weight: 500;
-font-size: 40px;
-line-height: 70px;
+font-size: 3vw;
+line-height: 7vh;
 margin-top: 0;
 margin-bottom: 0;
 color: #FFFFFF;
@@ -70,10 +69,10 @@ color: #FFFFFF;
 
 .headp{
   font-family: 'Neurial Grotesk';
-  max-width:  516.94px;
+
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 1.4vw;
 line-height: 22px;
 margin-top: 0;
 margin-bottom: 40px;

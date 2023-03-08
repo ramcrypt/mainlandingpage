@@ -16,11 +16,11 @@ export default function Home() {
           background: '#FFFFFF',
         }}
       >
-      <div style={{display:'flex',flexDirection:'column',position:'absolute',bottom:'33%',left:'4%',zIndex:1000,mb:100,paddingBottom:'100px',justifyContent:'center'}}>
+      <div style={{display:'flex',flexDirection:'column',position:'absolute',bottom:'36%',top:'20%',left:'4%',zIndex:1000,mb:100,paddingBottom:'100px',justifyContent:'center'}}>
       <h1 className="mainc"> Make every Trade count with <span className="mainc" style={{ color: '#4C3CE5' }}>CRYPTO FUTURES</span>
  </h1>
- <div style={{display:'flex',flexDirection:'row',marginTop:'50px'}}>
-      <p  style={{marginTop:25,fontSize: 18}}>
+ <div style={{display:'flex',flexDirection:'row'}}>
+      <p  style={{marginTop:25,fontSize: '1.5vw'}}>
         Get 10 USDT as joining bonus
       </p><img  src={ptwo} style={{width:'15%'}}/></div>
       </div>
@@ -47,7 +47,8 @@ export default function Home() {
         }}
         href="https://app.density.exchange/"
       >
-        Sign Up Now
+         <Typography sx={{fontWeight: 700,fontSize: "clamp(1px,18px, 24px)",
+         lineHeight: 18,}} >Sign Up Now </Typography>
       </Button></div>
 
       <div style={{zIndex:0}}>
