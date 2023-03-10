@@ -8,11 +8,13 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import footbo from "./components/footbo.svg";
+import { useMediaQuery } from '@mui/material';
 export default function Footer() {
+  const isLarge = useMediaQuery('(max-width:767px)');
   return (
     <>
 
-      <Box mt='10%' p="40px" backgroundColor="#000000">
+      <Box mt='10%' p="4vw" backgroundColor="#000000">
         <Box
           width="95%"
           margin="auto"
@@ -29,26 +31,33 @@ export default function Footer() {
             }}
           >
             <figure>
-              <img src={FooterIcon} alt="icon for footer"  style={{paddingBottom:0}}/>
+              <img src={FooterIcon} alt="icon for footer"  style={{paddingBottom:0,maxWidth:'100%',
+              '@media (max-width: 767px)': {
+                width:'20vw',
+                height:"7vw"
+            }}}/>
             </figure>
             <Box
               sx={{
                 '& .MuiTypography-root': {
                   fontWeight: 400,
-                  fontSize: '18px',
-                  lineHeight: '30px',
+                  fontSize: '2vw',
+                  lineHeight: '3vw',
                   color: '#E2FF6F',
                 },
               }}
             >
-              <Typography>+91 9035092634</Typography>
-              <Typography>hello@density.exchange</Typography>
+              <a href="tel:+919035092634" style={{textDecoration:'none'}}>
+              <Typography>+91 9035092634</Typography></a>
+              <a href="mailto:hello@density.exchange" style={{textDecoration:'none'}}>
+              <Typography>hello@density.exchange</Typography></a>
             </Box>
           </Box>
           {/* </Box> */}
 
           <Box
             sx={{
+
                   gap: '1.2vw',
               display: 'flex',
               justifyContent: 'center',
@@ -60,9 +69,17 @@ export default function Footer() {
                   cursor: 'pointer',
                 },
               },
+              '@media (max-width: 767px)': {
+                whiteSpace: 'nowrap',
+                marginLeft:'32vw',
+                paddingTop:'16vw',
+                gap:'1.5vw'
+            }
             }}
           >
-            <Typography sx={{fontSize:'1vw'}}>Home</Typography>
+            <Typography sx={{fontSize:'1vw','@media (max-width: 767px)': {
+            fontSize:'2vw'
+          }}}>Home</Typography>
             <Typography sx={{
               fontSize:'1vw',
               '& .blog-link': {
@@ -78,6 +95,9 @@ export default function Footer() {
               '& .blog-link:hover': {
                 color: 'inherit',
               },
+              '@media (max-width: 767px)': {
+              fontSize:'2vw'
+            }
             }}>  <a
                 href="https://shorthaired-twist-38b.notion.site/T-Cs-for-the-Density-Futures-trading-Competition-0704be0da1d446f2a34cdc83fea81468"
                 target="_blank"
@@ -86,7 +106,9 @@ export default function Footer() {
               >
                 Community
               </a></Typography>
-            <Typography sx={{fontSize:'1vw'}}>About Us</Typography>
+            <Typography sx={{fontSize:'1vw',  '@media (max-width: 767px)': {
+              fontSize:'2vw',
+            }}}>About Us</Typography>
             <Typography
               sx={{
                 '& .blog-link': {
@@ -102,7 +124,10 @@ export default function Footer() {
                 '& .blog-link:hover': {
                   color: 'inherit',
                 },
-                fontSize:'1vw'
+                fontSize:'1vw',
+                '@media (max-width: 767px)': {
+                fontSize:'2vw'
+              }
               }}
             >
               <a
@@ -118,24 +143,52 @@ export default function Footer() {
 
           <Box
             sx={{
-              width: 'clamp(20%, 25%, 30%)',
+              width: 'clamp(25%, 25%, 30%)',
               display: 'flex',
               justifyContent: 'flex-end',
               alignItems: 'center',
+              '@media (max-width: 767px)': {
+              marginRight:'3vw',
+              marginLeft:'-21vw'
+            }
             }}
           >
-            <IconButton>
+            <IconButton sx={{
+
+              '@media (max-width: 767px)': {
+                width:'1vw',
+               margin:'1vw'
+            }
+            }}>
               <FacebookIcon
-                sx={{ maxWidth: '100%', height: 'auto', color: '#E2FF6F' }}
+                sx={{ color: '#E2FF6F' }}
               />
             </IconButton>
-            <IconButton>
+            <IconButton sx={{
+
+              '@media (max-width: 767px)': {
+                width:'1vw',
+               margin:'1vw'
+            }
+            }}>
               <TwitterIcon sx={{ color: '#E2FF6F' }} />
             </IconButton>
-            <IconButton>
+            <IconButton sx={{
+
+              '@media (max-width: 767px)': {
+                width:'1vw',
+               margin:'1vw'
+            }
+            }}>
               <InstagramIcon sx={{ color: '#E2FF6F' }} />
             </IconButton>
-            <IconButton>
+            <IconButton sx={{
+
+              '@media (max-width: 767px)': {
+                width:'1vw',
+               margin:'1vw'
+            }
+            }}>
               <LinkedInIcon sx={{ color: '#E2FF6F' }} />
             </IconButton>
             <a
@@ -143,7 +196,13 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <IconButton>
+              <IconButton sx={{
+
+                '@media (max-width: 767px)': {
+                  width:'1vw',
+                 margin:'1vw'
+              }
+              }}>
                 <WhatsAppIcon sx={{ color: '#E2FF6F' }} />
               </IconButton>
             </a>
@@ -152,7 +211,13 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <IconButton varient="filled">
+              <IconButton varient="filled" sx={{
+
+                '@media (max-width: 767px)': {
+                  width:'1vw',
+                 margin:'1vw'
+              }
+              }}>
                 <TelegramIcon sx={{ color: '#E2FF6F' }} />
               </IconButton>
             </a>

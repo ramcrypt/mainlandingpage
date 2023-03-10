@@ -12,12 +12,12 @@ body {
 }
 .test{
     background-color: #000000;
-  padding-top: 76px;
-  padding-bottom: 80px;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
   font-family: 'DM Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 36px;
+font-size: 3.5vw;
 line-height: 46px;
 /* identical to box height, or 128% */
 

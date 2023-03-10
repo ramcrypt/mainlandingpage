@@ -31,29 +31,38 @@ function App() {
     <DynamicStepper />
     </div>
     <div className="btn">
-      <Button
-        sx={{
-          color: "#000000",
-          display: "flex",
-          fontFamily: "DM Sans",
-          fontStyle: "normal",
-          fontWeight: 700,
-          fontSize: "18px",
-          lineHeight: 18,
-          mt: '4vh',
-          padding: "24px 36px",
-          width: '30vw',
-          "&:hover": {
-            background: "#E2FF6F"
-          },
-          height: 66,
+    <Button className="herobutton"
+      sx={{
+
+        color: "#000000",
+        display: "flex",
+        fontFamily: "DM Sans",
+        fontStyle: "normal",
+        fontWeight: 700,
+        fontSize: "clamp(1px,18px, 24px)",
+        lineHeight: 18,
+        mt:'2.5vw',
+        padding: "24px 36px",
+        width: '30vw',
+        "&:hover": {
           background: "#E2FF6F"
-        }}
-        href="https://app.density.exchange/"
-      >
-      <Typography sx={{fontWeight: 700,fontSize: "clamp(1px,18px, 24px)",
-      lineHeight: 18,}} >Sign Up Now </Typography>
-      </Button>
+        },
+        height: 66,
+        background: "#E2FF6F",
+        '@media (max-width: 750px)': {
+          width:'60vw',
+          padding:'10px 16px',
+          height:"8vw"
+      }
+      }}
+      href="https://app.density.exchange/"
+    >
+       <Typography className="heort" sx={{fontWeight: 700,fontSize: "clamp(1px,18px, 24px)",
+       lineHeight: 18,
+       '@media (max-width: 700px)': {
+        fontSize:'2.5vw'
+     }}} >Sign Up Now </Typography>
+    </Button>
     </div>
     </div>
     <div className="imagec">

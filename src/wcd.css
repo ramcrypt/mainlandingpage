@@ -41,7 +41,7 @@
 }
 .static {
   margin-top: 30px;
-  margin-left: clamp(1vw,5vw,10vw);
+  margin-left: auto;
   display: flex;
   flex-direction: row;
 }
@@ -49,13 +49,13 @@
 
   margin-right: 10px;
   display: flex;
-  justify-content: center;
+
   flex-direction: column;
 }
 .col2 {
   margin-right: 25px;
   display: flex;
-  justify-content: center;
+
   flex-direction: column;
 }
 .security{
@@ -69,4 +69,13 @@ line-height: 38px;
 color: #FFFFFF;
 
 
+}
+@media only screen and (max-width: 900px) {
+  .wcd{
+    justify-content: flex-start;
+  }
+  .cd{
+    width:50%;
+    height:50%;
+  }
 }

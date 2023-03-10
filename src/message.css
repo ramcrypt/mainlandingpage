@@ -7,9 +7,7 @@
   background-color: #F5F5F5;
 }
 
-.ms{
-  height:100vh;
-}
+
 
 ::-webkit-scrollbar-thumb {
   background-color: #000000;
@@ -39,7 +37,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  
+
   margin-left: 70px;
  margin-top:0;
 }
@@ -111,4 +109,36 @@
 
 margin-left: auto;
   margin-top: 72.81px;
+}
+@media only screen and (max-width: 660px) {
+ .box1{
+   align-items: center;
+   flex-direction: column;
+   margin-left: 0;
+ }
+ .boxi{
+   justify-content: normal;
+  height:45vh;
+  width:100vw;
+   margin-left: 0;
+ }
+ .boxi1{
+   justify-content: normal;
+   width:100vw;
+    height:45vh;
+   margin-left: 0;
+ }
+ .in{
+
+
+ }
+ .contain{
+   width:100vw;
+     height:50vh;
+
+   margin-bottom: 5vw;
+ }
+ .im1>img{
+   width:10vw;
+ }
 }

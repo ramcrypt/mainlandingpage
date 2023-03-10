@@ -2,6 +2,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import React from 'react';
 import "./message.css";
  import Faq from "./Faq";
+ import { useMediaQuery } from '@mui/material';
 import t from "./components/t.svg";
 import groupa from "./components/groupa.svg";
 import anim1 from "./components/anim1.svg";
@@ -11,7 +12,7 @@ import Vector from "./components/Vector.svg";
 import Vector1 from "./components/Vector1.svg";
 import { Button,Typography } from "@mui/material";
 export default function Message() {
-
+    const isLarge = useMediaQuery('(min-width:660px)');
   return (
 
     <div  className="ms">
@@ -26,7 +27,11 @@ export default function Message() {
         >
           <div className="box1">
             <div className="contain">
-            <div className="in">
+            <div className="in" style={{
+              '@media (max-width: 660px)': {
+               marginLeft:'-25vw'
+            }
+            }}>
 
              <img src={mask} alt="im1" className="im1" />
             </div>
@@ -38,7 +43,7 @@ export default function Message() {
                 </p>
               </div>
               <div className="btn1">
-              <Button
+            { /* <Button
                 sx={{
                   color: "#FFFFFF",
                   display: "flex",
@@ -55,16 +60,58 @@ export default function Message() {
                     background: "#000000"
                   },
                   height: 6,
-                  background: "#000000"
+                  background: "#000000",
+                  '@media (max-width: 765px)': {
+                    width:'50vw',
+
+                    padding:'10px 16px',
+                    height:"8vw"
+                }
                 }}
                 href="https://app.density.exchange/"
               >
-              <Typography>  Explore Now </Typography>
-              </Button>
+              <Typography  sx={{
 
+              '@media (max-width: 765px)': {
+               fontSize:'2vw'
+            }}}>  Explore Now </Typography>
+              </Button>*/}
+              <Button className="herobutton"
+                sx={{
+
+                  color: "#ffffff",
+                  display: "flex",
+                  fontFamily: "DM Sans",
+                  fontStyle: "normal",
+                  fontWeight: 700,
+                  fontSize: "clamp(1px,18px, 24px)",
+                  lineHeight: 18,
+                  ml: 9,
+                  mt: 3,
+
+                  padding: "24px 36px",
+                  width: '30vw',
+                  "&:hover": {
+                    background: "#000000"
+                  },
+                  height: 66,
+                  background: "#000000",
+                  '@media (max-width: 765px)': {
+                    padding:'10px 16px',
+                    height:"8vw"
+                }
+                }}
+                href="https://app.density.exchange/"
+              >
+                 <Typography className="heort" sx={{fontWeight: 700,fontSize: "clamp(1px,18px, 24px)",
+                 lineHeight: 18,
+                 '@media (max-width: 765px)': {
+                  fontSize:'2.25vw'
+               }}} >Explore Now </Typography>
+              </Button>
               </div>
-              <div>
-              <img src={Vector1}  alt="vector1" style={{paddingBottom:100,marginBottom:0,marginLeft:150,marginTop:'40vh'}}/></div>
+            {isLarge?(  <div>
+              <img src={Vector1}  alt="vector1" style={{paddingBottom:100,marginBottom:0,marginLeft:150,marginTop:'40vh'}}/></div>):(<>{" "}</>)}
             </div>
             <div className="boxi">
 
@@ -83,9 +130,16 @@ export default function Message() {
         >
         <div className="box1">
           <div className="contain">
-          <div className="in">
+          <div className="in" style={{
+            '@media (max-width: 660px)': {
+             marginLeft:'-25vw'
+          }
+          }}>
 
-           <img src={mask} className="im1" />
+           <img src={mask} className="im1" style={{
+              '@media (max-width: 660px)': {
+            width:'10%'
+         }}} />
           </div>
             <div className="frame1">
 
@@ -95,33 +149,43 @@ export default function Message() {
               </p>
             </div>
             <div className="btn1">
-            <Button
+            <Button className="herobutton"
               sx={{
-                color: "#FFFFFF",
+
+                color: "#ffffff",
                 display: "flex",
                 fontFamily: "DM Sans",
                 fontStyle: "normal",
                 fontWeight: 700,
-                fontSize: "18px",
+                fontSize: "clamp(1px,18px, 24px)",
                 lineHeight: 18,
                 ml: 9,
                 mt: 3,
+
                 padding: "24px 36px",
-                width: '25vw',
+                width: '30vw',
                 "&:hover": {
                   background: "#000000"
                 },
-                height: 6,
-                background: "#000000"
+                height: 66,
+                background: "#000000",
+                '@media (max-width: 765px)': {
+                  padding:'10px 16px',
+                  height:"8vw"
+              }
               }}
               href="https://app.density.exchange/"
             >
-            <Typography>  Explore Now </Typography>
+               <Typography className="heort" sx={{fontWeight: 700,fontSize: "clamp(1px,18px, 24px)",
+               lineHeight: 18,
+               '@media (max-width: 765px)': {
+                fontSize:'2.25vw'
+             }}} >Explore Now </Typography>
             </Button>
 
             </div>
-            <div>
-            <img src={Vector1}  alt="vector1" style={{paddingBottom:100,marginBottom:0,marginLeft:150,marginTop:'40vh'}}/></div>
+            {isLarge?( <div>
+             <img src={Vector1}  alt="vector1" style={{paddingBottom:100,marginBottom:0,marginLeft:150,marginTop:'40vh'}}/></div>):(<>{" "}</>)}
           </div>
           <div className="boxi1">
           <img src={groupa} alt='image'   style={{marginRight:- 210,width:'90%',zIndex:'10'}} />

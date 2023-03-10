@@ -7,11 +7,11 @@
 }
 .App5 {
   font-family: sans-serif;
-  padding-top: 30px;
-  padding-bottom: 60px;
-  padding-left: 30px;
-  width: 600px;
-  height: 100%;
+  padding-top: 3vw;
+  padding-bottom: 4vw;
+  padding-left: 3vw;
+  width: 40vw;
+  height: 20vw;
   position: relative;
 
   animation: scroll 40s linear infinite;
@@ -44,9 +44,9 @@ transform: scale(1.22);
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.5vw;
   height:80%;
-  line-height: 30px;
+  line-height: 2vw;
   /* or 167% */
   margin-bottom: 50;
   color: #ffffff;
@@ -56,8 +56,8 @@ transform: scale(1.22);
   font-family: "Neurial Grotesk";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 1.7vw;
+  line-height: 1.3vw;
   color: #ffffff;
 }
 .pwork {
@@ -66,8 +66,8 @@ transform: scale(1.22);
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 1vw;
+  line-height: 1.8vw;
   /* identical to box height, or 112% */
 
   color: #ffffff;

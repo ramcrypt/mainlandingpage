@@ -47,7 +47,34 @@ export default function DynamicStepper(props) {
                 backgroundColor: "#E2FF6F",
                 transform: "translate(50%, 50%) rotate(90deg)",
                 zIndex: -1
-              }
+              },
+              '@media (max-width: 750px)': {
+                position: "relative",
+                mt: 2,
+                width: "10vw",
+                height: '10vw',
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: "#E2FF6F",
+                borderRadius: 2,
+                transform: "matrix(-1, 0, 0, 1, 0, 0)",
+                zIndex: 1,
+
+                "&::after": {
+                  content: '""',
+                  position: "absolute",
+                  width: "3vw",
+                  height: "3vw",
+                  top: "-3vw",
+                  left: '6.9vw',
+
+                  borderRadius: 0.7,
+                  backgroundColor: "#E2FF6F",
+                  transform: "translate(50%, 50%) rotate(90deg)",
+                  zIndex: -1
+                }
+            }
             }}
           />{" "}
         </div>
@@ -118,12 +145,38 @@ export default function DynamicStepper(props) {
       </div>
       <div className={`step ${currentStep >= 2 ? "active" : ""}`}>
         <div className="one">
-          <Box
-            sx={{
+        <Box
+          sx={{
+            position: "relative",
+            mt: 2,
+            width: "4.75vw",
+            height: '4.75vw',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "#E2FF6F",
+            borderRadius: 2,
+            transform: "matrix(-1, 0, 0, 1, 0, 0)",
+            zIndex: 1,
+
+            "&::after": {
+              content: '""',
+              position: "absolute",
+              width: "1.85vw",
+              height: "1.85vw",
+              top: "-2vw",
+              left: '3.2vw',
+
+              borderRadius: 2,
+              backgroundColor: "#E2FF6F",
+              transform: "translate(50%, 50%) rotate(90deg)",
+              zIndex: -1
+            },
+            '@media (max-width: 750px)': {
               position: "relative",
               mt: 2,
-              width: "4.75vw",
-              height: '4.75vw',
+              width: "10vw",
+              height: '10vw',
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -135,18 +188,19 @@ export default function DynamicStepper(props) {
               "&::after": {
                 content: '""',
                 position: "absolute",
-                width: "1.85vw",
-                height: "1.85vw",
-                top: "-2vw",
-                left: '3.2vw',
+                width: "3vw",
+                height: "3vw",
+                top: "-3vw",
+                left: '6.9vw',
 
-                borderRadius: 2,
+                borderRadius: 0.7,
                 backgroundColor: "#E2FF6F",
                 transform: "translate(50%, 50%) rotate(90deg)",
                 zIndex: -1
               }
-            }}
-          />{" "}
+          }
+          }}
+        />{" "}
         </div>
         <div clasName="contd">
           <h1 className="subdy"> Quick Deposit </h1>
@@ -215,12 +269,38 @@ export default function DynamicStepper(props) {
       </div>
       <div className={`step ${currentStep >= 4 ? "active" : ""}`}>
         <div className="one">
-          <Box
-            sx={{
+        <Box
+          sx={{
+            position: "relative",
+            mt: 2,
+            width: "4.75vw",
+            height: '4.75vw',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "#E2FF6F",
+            borderRadius: 2,
+            transform: "matrix(-1, 0, 0, 1, 0, 0)",
+            zIndex: 1,
+
+            "&::after": {
+              content: '""',
+              position: "absolute",
+              width: "1.85vw",
+              height: "1.85vw",
+              top: "-2vw",
+              left: '3.2vw',
+
+              borderRadius: 2,
+              backgroundColor: "#E2FF6F",
+              transform: "translate(50%, 50%) rotate(90deg)",
+              zIndex: -1
+            },
+            '@media (max-width: 750px)': {
               position: "relative",
               mt: 2,
-              width: "4.75vw",
-              height: '4.75vw',
+              width: "10vw",
+              height: '10vw',
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -232,18 +312,19 @@ export default function DynamicStepper(props) {
               "&::after": {
                 content: '""',
                 position: "absolute",
-                width: "1.85vw",
-                height: "1.85vw",
-                top: "-2vw",
-                left: '3.2vw',
+                width: "3vw",
+                height: "3vw",
+                top: "-3vw",
+                left: '6.9vw',
 
-                borderRadius: 2,
+                borderRadius: 0.7,
                 backgroundColor: "#E2FF6F",
                 transform: "translate(50%, 50%) rotate(90deg)",
                 zIndex: -1
               }
-            }}
-          />{" "}
+          }
+          }}
+        />{" "}
         </div>
         <div clasName="contd">
           <h1 className="subdy"> Trade Seamlessly </h1>
@@ -312,12 +393,38 @@ export default function DynamicStepper(props) {
       </div>
       <div className={`step ${currentStep >= 6 ? "active" : ""}`}>
         <div className="one">
-          <Box
-            sx={{
+        <Box
+          sx={{
+            position: "relative",
+            mt: 2,
+            width: "4.75vw",
+            height: '4.75vw',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "#E2FF6F",
+            borderRadius: 2,
+            transform: "matrix(-1, 0, 0, 1, 0, 0)",
+            zIndex: 1,
+
+            "&::after": {
+              content: '""',
+              position: "absolute",
+              width: "1.85vw",
+              height: "1.85vw",
+              top: "-2vw",
+              left: '3.2vw',
+
+              borderRadius: 2,
+              backgroundColor: "#E2FF6F",
+              transform: "translate(50%, 50%) rotate(90deg)",
+              zIndex: -1
+            },
+            '@media (max-width: 750px)': {
               position: "relative",
               mt: 2,
-              width: "4.75vw",
-              height: '4.75vw',
+              width: "10vw",
+              height: '10vw',
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -329,18 +436,19 @@ export default function DynamicStepper(props) {
               "&::after": {
                 content: '""',
                 position: "absolute",
-                width: "1.85vw",
-                height: "1.85vw",
-                top: "-2vw",
-                left: '3.2vw',
+                width: "3vw",
+                height: "3vw",
+                top: "-3vw",
+                left: '6.9vw',
 
-                borderRadius: 2,
+                borderRadius: 0.7,
                 backgroundColor: "#E2FF6F",
                 transform: "translate(50%, 50%) rotate(90deg)",
                 zIndex: -1
               }
-            }}
-          />{" "}
+          }
+          }}
+        />{" "}
         </div>
         <div clasName="contd">
           <h1 className="subdy"> Become A Trader </h1>
