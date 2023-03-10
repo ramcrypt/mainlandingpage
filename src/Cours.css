@@ -28,7 +28,11 @@ color: #FFFFFF;
 
 }
 
-
+@media only screen and (max-width: 500px) {
+  .test{
+    font-size: 7vw;
+  }
+}
 .slider {
   height: 250px;
 

@@ -128,9 +128,12 @@ margin-left: auto;
     height:45vh;
    margin-left: 0;
  }
- .in{
+ .NFR{
 
-
+  font-size: 8vw;
+ }
+ .conten{
+   font-size: 2.5vw;
  }
  .contain{
    width:100vw;
