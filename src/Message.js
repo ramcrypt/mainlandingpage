@@ -43,39 +43,7 @@ export default function Message() {
                 </p>
               </div>
               <div className="btn1">
-            { /* <Button
-                sx={{
-                  color: "#FFFFFF",
-                  display: "flex",
-                  fontFamily: "DM Sans",
-                  fontStyle: "normal",
-                  fontWeight: 700,
-                  fontSize: "18px",
-                  lineHeight: 18,
-                  ml: 9,
-                  mt: 3,
-                  padding: "24px 36px",
-                  width: '25vw',
-                  "&:hover": {
-                    background: "#000000"
-                  },
-                  height: 6,
-                  background: "#000000",
-                  '@media (max-width: 765px)': {
-                    width:'50vw',
-
-                    padding:'10px 16px',
-                    height:"8vw"
-                }
-                }}
-                href="https://app.density.exchange/"
-              >
-              <Typography  sx={{
-
-              '@media (max-width: 765px)': {
-               fontSize:'2vw'
-            }}}>  Explore Now </Typography>
-              </Button>*/}
+          
               <Button className="herobutton"
                 sx={{
 
