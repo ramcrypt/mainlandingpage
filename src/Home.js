@@ -12,12 +12,12 @@ export default function Home() {
         sx={{
           position:'relative',
           width: '100%',
-          height: 'inherit',
+          height: '100%',
           background: '#FFFFFF',
         }}
       >
    <div style={{display:'flex',displayDirection:'column',marginLeft:'5vw'}}>
-      <div style={{display:'flex',flexDirection:'column',bottom:'36%',top:'20%',left:'4%',zIndex:1000,mb:100,justifyContent:'center'}}>
+      <div style={{display:'flex',flexDirection:'column',bottom:'36%',top:'20%',left:'4%',zIndex:1000,mb:100,marginTop:'12vw',marginBottom:'14vw'}}>
       <h1 className="mainc"> Make every Trade count with <span className="mainc" style={{ color: '#4C3CE5' }}>CRYPTO FUTURES</span>
  </h1>
  <div style={{display:'flex',flexDirection:'row',paddingBottom:'1vw'}}>

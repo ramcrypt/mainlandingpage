@@ -27,10 +27,10 @@ function App() {
     </h1>
 
     <p className="headp">Become a trader in 3 easy steps!</p>
-    <div className="stepper">
+    <div className="stepper" >
     <DynamicStepper />
     </div>
-    <div className="btn">
+    <div className="btn" >
     <Button className="herobutton"
       sx={{
 
@@ -39,6 +39,7 @@ function App() {
         fontFamily: "DM Sans",
         fontStyle: "normal",
         fontWeight: 700,
+        paddingTop:'50vw',
         fontSize: "clamp(1px,18px, 24px)",
         lineHeight: 18,
         mt:'2.5vw',
@@ -47,7 +48,7 @@ function App() {
         "&:hover": {
           background: "#E2FF6F"
         },
-        height: 66,
+        height: '4.5vw',
         background: "#E2FF6F",
         '@media (max-width: 750px)': {
           width:'60vw',

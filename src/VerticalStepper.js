@@ -161,7 +161,8 @@ export default function VerticalStepper() {
           '&:hover': {
           background: '#E2FF6F',
           },
-          height: 66,
+          position:'relative',
+          height: '5vw',
           background: '#E2FF6F'  }}
                 href="https://app.density.exchange/">
                 Sign Up Now
