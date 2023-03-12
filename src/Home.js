@@ -64,7 +64,7 @@ export default function Home() {
       <div style={{zIndex:0}}>
         <figure style={{ width: '50vw' }}>
 
-          <img className="hero-img" src={Hero} alt="Hero image" style={{paddingBottom:'10vw',paddingTop:'10vw'}}/>
+          <img className="hero-img" src={Hero} alt="Hero image"  style={{paddingBottom:'10vw',paddingTop:'10vw'}}/>
         </figure></div>
 
 </div>
