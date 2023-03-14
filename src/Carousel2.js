@@ -1,9 +1,8 @@
-import card from './components/Testimonial Card.svg';
+
 import React from 'react';
 import Testimonials from "./Testimonials"
 import "./Cours.css";
-import testb from "./components/testb.svg"
-import {Typography} from "@mui/material";
+
 export default function Carousel2() {
   return (
     <>

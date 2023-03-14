@@ -7,7 +7,7 @@ import Wcdformob from "./Wcdformob";
 import Footer from "./Footer";
 import Message from "./Message";
 import Home from "./Home";
-import NewNav from "./NewNav";
+
 import Navm from "./Navm";
 import { useMediaQuery } from '@mui/material';
 import Carousel2 from "./Carousel2";

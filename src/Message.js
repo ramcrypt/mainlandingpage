@@ -43,7 +43,7 @@ export default function Message() {
                 </p>
               </div>
               <div className="btn1">
-          
+
               <Button className="herobutton"
                 sx={{
 

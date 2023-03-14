@@ -1,9 +1,8 @@
 
 import './index.css';
 import React from 'react';
-import { styled } from "@mui/material/styles";
+
 import { Typography,Button } from "@mui/material";
-import VerticalStepper from "./VerticalStepper"
 import DynamicStepper  from "./DynamicStepper"
 function App() {
 

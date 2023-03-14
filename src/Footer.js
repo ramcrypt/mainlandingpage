@@ -10,7 +10,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import footbo from "./components/footbo.svg";
 import { useMediaQuery } from '@mui/material';
 export default function Footer() {
-  const isLarge = useMediaQuery('(max-width:767px)');
+
   return (
     <>
 

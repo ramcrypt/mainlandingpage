@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./ds.css";
 import ds1 from "./components/ds1.svg";
-import { Button } from "@mui/material";
 import Box from "@mui/material/Box";
 import useScrollPosition from "./useScrollPosition";
-import {useLocation} from 'react-router-dom';
+
 export default function DynamicStepper(props) {
   const [currentStep, setCurrentStep] = useState(0);
   const scrollPosition = useScrollPosition();
@@ -86,7 +85,7 @@ export default function DynamicStepper(props) {
       </div>
       <div className={`step ${currentStep >= 1 ? "active" : ""}`}>
         <div className="dot">
-        <img src={ds1} />
+        <img src={ds1} alt='liner' />
         </div>
       </div>
       <div className={`step ${currentStep >= 2 ? "active" : ""}`}>
@@ -155,7 +154,7 @@ export default function DynamicStepper(props) {
       </div>
       <div className={`step ${currentStep >= 3 ? "active" : ""}`}>
         <div className="dot">
-          <img src={ds1} />
+          <img src={ds1} alt="liner"/>
         </div>
       </div>
       <div className={`step ${currentStep >= 4 ? "active" : ""}`}>
@@ -224,7 +223,7 @@ export default function DynamicStepper(props) {
       </div>
       <div className={`step ${currentStep >= 5 ? "active" : ""}`}>
         <div className="dot">
-          <img src={ds1} />
+          <img src={ds1} alt='liner'/>
         </div>
       </div>
       <div className={`step ${currentStep >= 6 ? "active" : ""}`}>
